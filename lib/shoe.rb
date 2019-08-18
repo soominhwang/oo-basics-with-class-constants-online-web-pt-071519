@@ -4,11 +4,13 @@ class Shoe
 
   BRANDS = []
 
+
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    BRANDS.unique
   end
+
+    BRANDS.unique = BRANDS
 
   def cobble
     self.condition = "new"
