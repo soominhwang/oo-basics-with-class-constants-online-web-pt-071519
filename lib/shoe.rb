@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     if BRANDS.contains(brand)
       return
+    end
     BRANDS << brand
   end
 
